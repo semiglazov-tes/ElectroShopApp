@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "8afbc1de-a677-47cf-9ecd-52f1688f45b2": {
+      "ProjectGuid": "8afbc1de-a677-47cf-9ecd-52f1688f45b2",
+      "DisplayName": "ElectroShopAPI",
+      "ColorIndex": 0
+    },
+    "daf4c54b-9433-4e6d-a202-1eb88f209cf9": {
+      "ProjectGuid": "daf4c54b-9433-4e6d-a202-1eb88f209cf9",
+      "DisplayName": "ElectroShopCore",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
