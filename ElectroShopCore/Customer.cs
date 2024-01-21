@@ -8,6 +8,6 @@ namespace ElectroShopCore
 {
     internal class Customer:BaseEntity
     {
-
+        public string? Name { get; protected set; }
     }
 }
