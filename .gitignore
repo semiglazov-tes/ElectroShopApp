@@ -24,5 +24,9 @@ TestResults.xml
 .ElectroShopAPI/bin/
 .ElectroShopAPI/obj/
 .ElectroShopAPI/Properties/
+
 .ElectroShopCore/bin/
 .ElectroShopCore/obj/
+
+.ElectroShopInfrasructure/bin/
+.ElectroShopInfrasructure/obj/
