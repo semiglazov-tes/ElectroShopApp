@@ -256,6 +256,16 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "ElectroShopCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ElectroShopCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ElectroShopCore.dll": {}
+        }
       }
     }
   },
@@ -670,10 +680,16 @@
         "system.runtime.compilerservices.unsafe.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "ElectroShopCore/1.0.0": {
+      "type": "project",
+      "path": "../ElectroShopCore/ElectroShopCore.csproj",
+      "msbuildProject": "../ElectroShopCore/ElectroShopCore.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "ElectroShopCore >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.0",
       "Microsoft.Extensions.Configuration >= 6.0.0",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 6.0.0"
@@ -705,7 +721,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\electroShopApp\\ElectroShopCore\\ElectroShopCore.csproj": {
+              "projectPath": "D:\\electroShopApp\\ElectroShopCore\\ElectroShopCore.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

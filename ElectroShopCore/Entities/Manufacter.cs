@@ -4,7 +4,7 @@ namespace ElectroShopCore.Entities
     /// <summary>
     /// Производитель
     /// </summary>
-    internal class Customer:BaseEntity
+    public class Manufacter:BaseEntity
     {
         public string? Name { get; protected set; }
     }
