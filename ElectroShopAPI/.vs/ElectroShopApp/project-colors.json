@@ -10,7 +10,17 @@
       "ProjectGuid": "daf4c54b-9433-4e6d-a202-1eb88f209cf9",
       "DisplayName": "ElectroShopCore",
       "ColorIndex": 1
+    },
+    "9b653e93-1f59-4fc4-b9c4-c89d7f1289a1": {
+      "ProjectGuid": "9b653e93-1f59-4fc4-b9c4-c89d7f1289a1",
+      "DisplayName": "ElectroShopInfrastructure",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Прочие файлы",
+      "ColorIndex": -1
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 3
 }
