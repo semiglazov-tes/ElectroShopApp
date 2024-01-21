@@ -1,5 +1,5 @@
 ﻿
-namespace ElectroShopCore
+namespace ElectroShopCore.Entities
 {
     /// <summary>
     /// Базовый абсрактный класс для сущностей

@@ -1,7 +1,5 @@
-﻿using System;
-
-
-namespace ElectroShopCore
+﻿
+namespace ElectroShopCore.Entities
 {
     /// <summary>
     /// Производитель

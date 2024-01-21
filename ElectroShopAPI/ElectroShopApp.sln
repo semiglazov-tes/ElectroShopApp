@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElectroShopAPI", "ElectroSh
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElectroShopCore", "..\ElectroShopCore\ElectroShopCore.csproj", "{DAF4C54B-9433-4E6D-A202-1EB88F209CF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "..\Infrastructure\Infrastructure.csproj", "{9B653E93-1F59-4FC4-B9C4-C89D7F1289A1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectroShopInfrastructure", "..\Infrastructure\ElectroShopInfrastructure.csproj", "{9B653E93-1F59-4FC4-B9C4-C89D7F1289A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{149459A1-767B-4299-B04A-F89F964266F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,6 +32,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8AFBC1DE-A677-47CF-9ECD-52F1688F45B2} = {149459A1-767B-4299-B04A-F89F964266F2}
+		{DAF4C54B-9433-4E6D-A202-1EB88F209CF9} = {149459A1-767B-4299-B04A-F89F964266F2}
+		{9B653E93-1F59-4FC4-B9C4-C89D7F1289A1} = {149459A1-767B-4299-B04A-F89F964266F2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B25292B8-22F9-4E51-94C9-52AE408E5B9C}

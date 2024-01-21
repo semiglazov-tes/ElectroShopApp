@@ -1,7 +1,9 @@
 ﻿
+using Microsoft.EntityFrameworkCore;
+
 namespace ElectroShopInfrastructure.Data
 {
-    internal class ElectroShopContext
+    internal class ElectroShopContext : DbContext
     {
 
     }
